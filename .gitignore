@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data
+LightGCN/LightGCN-PyTorch-master/data
+RippleNet-PyTorch-master/data
+SR-GNN/SR-GNN-master/datasets
