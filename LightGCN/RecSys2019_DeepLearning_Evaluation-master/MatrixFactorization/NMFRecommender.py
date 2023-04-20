@@ -36,6 +36,7 @@ class NMFRecommender(BaseMatrixFactorizationRecommender):
 
     def fit(self, num_factors=100,
             l1_ratio = 0.5,
+            alpha_W = 0.06,
             solver = "multiplicative_update",
             init_type = "random",
             beta_loss = "frobenius",
@@ -64,6 +65,7 @@ class NMFRecommender(BaseMatrixFactorizationRecommender):
                          random_state = random_seed,
                          l1_ratio = l1_ratio,
                          shuffle = True,
+                         alpha_W = alpha_W,
                          verbose = verbose,
                          max_iter = 500)
 
